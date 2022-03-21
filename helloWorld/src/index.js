@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom'
-import react from 'react'
-import './/components/bootstrap.css'
+import React from 'react'
+import './/components/hero.css'
 // import 'Sans-serif';
 import 'sans-serif/src/sans-serif.css';
 import './index.css'
+import './/components/about.css'
 
 // const element = <h1>Hello, world</h1>;
 // ReactDOM.render(element, document.getElementById('root'));
@@ -32,7 +33,7 @@ function tick() {
 
 </div>
 
-
+<div className="about__container">
 
     <h3>About</h3>
     <p>This is where I'm going say my strengths</p>
@@ -42,6 +43,9 @@ function tick() {
     <li>creating efficient systems</li>
     <li>writing - technical writing, copywriting</li>
     </ul>
+</div>
+
+
 
     <h3>Services</h3>
     <ul>
@@ -66,6 +70,7 @@ function tick() {
 
 
 <footer>
+<h3>Footer</h3>
 <ul className="col-4-md">
 <li>Home</li>
 <li>About</li>

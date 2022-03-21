@@ -1,4 +1,3 @@
-@font-face {
+body {
     font-family: sans-serif;
-    src: url(../node_modules/sans-serif/src/sans-serif.css);
 }
