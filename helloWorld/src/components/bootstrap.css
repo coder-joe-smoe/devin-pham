@@ -1,0 +1,24 @@
+@font-face {
+    font-family: sans-serif;
+}
+
+.hero__container {
+/* background-color: red; */
+border: solid 3px red;
+text: red;
+padding: 100px;
+margin: 50px 20px;
+min-height: 400px
+}
+
+.hero__text{
+/* background-color: blue; */
+}
+
+.hero__title{
+    
+}
+
+.hero__desc{
+    
+}
