@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom'
 import React from 'react'
-import './/components/hero.css'
-// import 'Sans-serif';
-import 'sans-serif/src/sans-serif.css';
 import './index.css'
-import './/components/about.css'
+import 'sans-serif/src/sans-serif.css';
+
+import Hero from './/components/hero/hero.js'
+import About from './/components/about/about'
 
 // const element = <h1>Hello, world</h1>;
 // ReactDOM.render(element, document.getElementById('root'));
@@ -18,34 +18,8 @@ function tick() {
       <h1>Logo - Nav</h1>
     </div>
 
-<div className="hero__container">
-    <div className="hero__text">
-      <h2 className="hero__title">
-            I am Devin Pham
-      </h2>
-      <p className="hero__desc">
-            Web Developer
-      </p>
-    </div>
-    <button className="hero__btn">Book Now</button>
-
-<img src="/" alt="" />
-
-</div>
-
-<div className="about__container">
-
-    <h3>About</h3>
-    <p>This is where I'm going say my strengths</p>
-    <ul>
-    <li>web development</li>
-    <li>it</li>
-    <li>creating efficient systems</li>
-    <li>writing - technical writing, copywriting</li>
-    </ul>
-</div>
-
-
+<Hero />
+<About />
 
     <h3>Services</h3>
     <ul>
