@@ -1,15 +1,22 @@
+.about__section{
+    padding: 1rem;
+}
+
 .about__container{
 border: 3px solid red;
-margin: 50px 20px;
-padding: 50px;
+/* margin: 50px 20px; */
+padding: 1rem;
+/* gap: 3rem 2rem; */
+
+display: grid;
+grid-template-columns:auto;
 }
 
 .about__item{
-    width: 5rem;
-    height: 5rem;
+    /* width: 5rem; */
+    height: 15rem;
 
     border-width:1px;
     border-style:solid;
     border-color:red;
-
 }
