@@ -6,11 +6,11 @@ function Footer() {
 <footer>
 
 <ul className="footer__nav">
-<li>Home</li>
-<li>About</li>
-<li>Services</li>
-<li>Projects</li>
-<li>Testimonials</li>
+<li><a href="/">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#testimonials">Testimonials</a></li>
 </ul>
 
 <ul className="footer__contact">
@@ -18,7 +18,7 @@ function Footer() {
 <li>email: dtpham17@gmail.com</li>
 <li>phone: 832-495-6966</li>
 <li>fill out form</li>
-<li></li>
+<li><a href="https://github.com/coder-joe-smoe">github</a></li>
 </ul>
 
 
