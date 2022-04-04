@@ -1,0 +1,30 @@
+footer {
+    background-color: lightgray;
+    color:black;
+}
+
+.footer__nav{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 0.5rem;
+    padding: 1rem;
+}
+
+.footer__contact{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 0.5rem;
+    padding: 1rem;
+}
+
+.footer__rights__container{
+    display:grid;
+}
+
+.footer__rights{
+    background-color: black;
+    color:white;
+    padding:0.5rem 1rem;
+}

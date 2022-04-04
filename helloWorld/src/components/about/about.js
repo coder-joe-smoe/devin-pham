@@ -31,16 +31,14 @@ function About() {
   <div className="about__text">
   <h4 className="about__title">Sales Copywriting</h4>
   <p className="about__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis officiis minus aut?</p>
+</div>
   <div className="about__item">
   </div> 
-</div>
 
 
 <div className="about__text">
   <h4 className="about__title">Efficient systems</h4>
   <p className="about__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, in? Ipsa debitis, porro hic earum est reiciendis dolores quidem ab?</p>
-  <div className="about__item">
-  </div>
 </div>
 
 </div>

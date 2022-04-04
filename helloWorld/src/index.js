@@ -6,6 +6,7 @@ import 'sans-serif/src/sans-serif.css';
 import Hero from './/components/hero/hero'
 import About from './/components/about/about'
 import Footer from './/components/footer/footer'
+import Projects from './/components/projects/projects'
 
 
 // const element = <h1>Hello, world</h1>;
@@ -13,7 +14,7 @@ import Footer from './/components/footer/footer'
 
 
 
-function tick() {
+function mainPage() {
   const element = (
     <div>
     <div className="navbar">
@@ -25,28 +26,22 @@ function tick() {
 
     <h3>Services</h3>
     <ul>
-      <li>copywriting</li>
-      <li>website creation</li>
-      <li></li>
+      <li>Copywriting</li>
+      <li>Website</li>
+      <li>Barbering</li>
     </ul>
 
-    <h3>Projects</h3>
-    <p></p>
-    <img src='https://www.itmountain.com' alt=""/>
-    <img src='/' alt="" />
-    <img src='/' alt="" />
-    <br />
-    <img src='/' alt="" />
-    <img src='/' alt="" />
-    <img src='/' alt="" />
+<Projects />
+
+
 
 <h3>Testimonials</h3>
-<p></p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempora quam nostrum perspiciatis provident pariatur fugit perferendis quasi quos illo.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempora quam nostrum perspiciatis provident pariatur fugit perferendis quasi quos illo.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempora quam nostrum perspiciatis provident pariatur fugit perferendis quasi quos illo.</p>
 
 
 <Footer />
-
-
 
     </div>
 
@@ -56,4 +51,4 @@ function tick() {
   ReactDOM.render(element, document.getElementById('root'));
 }
 
-setInterval(tick, 3000);
+mainPage();

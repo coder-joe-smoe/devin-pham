@@ -1,9 +1,11 @@
 import React from 'react'
+import './footer.css'
 
 function Footer() {
   return (
 <footer>
-<ul className="col-4-md">
+
+<ul className="footer__nav">
 <li>Home</li>
 <li>About</li>
 <li>Services</li>
@@ -11,17 +13,22 @@ function Footer() {
 <li>Testimonials</li>
 </ul>
 
-<ul className="col-4-md">
+<ul className="footer__contact">
 <li>Contact</li>
 <li>email: dtpham17@gmail.com</li>
 <li>phone: 832-495-6966</li>
 <li>fill out form</li>
-
-All rights reserved. Devin Pham (c)
-
+<li></li>
 </ul>
-</footer>
 
+
+<div className="footer__rights__container">
+
+<span className="footer__rights">
+All rights reserved. Devin Pham (c)
+</span>
+</div>
+</footer>
 
   )
 }
